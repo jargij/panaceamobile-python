@@ -1,5 +1,5 @@
 """constants for PanaceaMobile."""
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 CONFIG_FILE_CONTENT = """[PANACEA]
 PANACEA_LOGIN = 06501234567
