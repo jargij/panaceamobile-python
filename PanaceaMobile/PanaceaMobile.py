@@ -91,8 +91,6 @@ class PanaceaMobile:
         ]
 
         result = requests.get(self._api_url, request_content)
-        print(request_content)
-        print(result.json().get('status'))
         result_json = result.json()
         if result_json.get('status') == 1:
             return True
